@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Licencia",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/02Licencia",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Maximo",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest assignments/04Maximo",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
